@@ -1,0 +1,26 @@
+{
+  "name": "nice-logger",
+  "version": "1.0.0",
+  "description": "Logger with levels and a nice format.",
+  "main": "logger.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdb-alcorn/nice-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "logging"
+  ],
+  "author": "Tom Alcorn <tdb.alcorn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdb-alcorn/nice-logger/issues"
+  },
+  "homepage": "https://github.com/tdb-alcorn/nice-logger#readme"
+}

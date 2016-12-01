@@ -14,9 +14,11 @@ function Logger(name, defaultLevel) {
         critical: "C",
     };
     var level = 0;
+
     function setLevel(newLevel) {
-        var level = levels[newLevel] || 0;
+        level = levels[newLevel] || 0;
     }
+
     setLevel(defaultLevel);
 
     function _log(level, args) {
@@ -50,7 +52,6 @@ function Logger(name, defaultLevel) {
         out(toPrint);
     }
 
-    // TODO: Implement thread safety for out() and err().
     function out(s) {
         process.stdout.write(s + "\n");
     }
